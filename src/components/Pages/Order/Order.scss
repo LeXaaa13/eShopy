@@ -1,0 +1,81 @@
+.order {
+  text-align: center;
+  padding: 50px 0;
+  background: url("/image/others-bg.jpeg") center/cover no-repeat;
+  &-form {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px 0;
+    background: rgba($color: #111, $alpha: 0.5);
+    border-radius: 100px;
+
+    &-item {
+      width: 350px;
+      margin-bottom: 25px;
+      border-radius: 20px;
+      background: transparent;
+
+      label {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        font-weight: bold;
+        color: orange;
+
+        input {
+          width: 250px;
+          margin-top: 10px;
+          padding: 7px 20px;
+          border: 1px solid white;
+          border-radius: 20px;
+          color: white;
+          background: transparent;
+          outline: none;
+        }
+      }
+
+      &-error {
+        color: red;
+      }
+
+      &-radio {
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+      }
+
+      p {
+        font-weight: bold;
+        color: orange;
+      }
+    }
+
+    &-btn {
+      padding: 10px 50px;
+      border: none;
+      border-radius: 20px;
+      color: #000;
+      background: orange;
+
+      &:hover {
+        transition: 0.3s;
+        box-shadow: 0 2px 10px 2px orangered;
+      }
+    }
+
+    &-link {
+      padding-top: 30px;
+      color: gray;
+      text-decoration: underline;
+
+      &:hover {
+        color: gray;
+      }
+    }
+  }
+}

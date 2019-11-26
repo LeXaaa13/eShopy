@@ -1,0 +1,26 @@
+.footer {
+    &-body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+
+        &-info {
+            h4 {
+                color: #ff5912;
+            }
+
+            li {
+                font-size: 14px;
+                margin-top: 5px;
+                list-style: circle;
+            }
+        }
+
+        &-logo {
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}
